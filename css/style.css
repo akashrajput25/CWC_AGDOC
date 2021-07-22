@@ -1,0 +1,101 @@
+.news-link {
+    border-bottom: 5px solid #eee;
+    background: rgb(83, 82, 82);
+    box-shadow: 0px 10px 65px 0px #dae0e8;
+    padding: 45px 20%;
+    border-radius: 100px;
+    display: table;
+    margin-bottom: 45px;
+    font-family: 'Krona One', sans-serif;
+	font-family: 'Tourney', cursive;
+}
+.news-log{
+    color: #ccd4e0;
+}
+@media (max-width:775px) {
+	.news-link{
+        padding: 25px 10%;
+    }
+}
+
+.news-link img{
+    border:2px #044cb9 solid;
+}
+
+a.btn-view {
+    background: linear-gradient(to right, #5260d5, #42a4f3);
+    padding: 0px 10px;
+    color: #fff;
+    border-radius: 3px;
+    width: 160px;
+    height: 47px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 10px 65px 0px #ccd4e0;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    line-height: 42px;
+    text-align: -webkit-center;
+    float: right;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+a.btn-view:hover {
+    background: linear-gradient(to right, #6371e4, #5eb6fd);
+    box-shadow: 0px 20px 45px 0px #ccd4e0;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+span.time-data {
+    font-size: 12px;
+    color: #62686d;
+    background: #edf3fa;
+    padding: 15px 20px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 6px;
+    font-weight: 600;
+}
+a.btn-view:after {
+    content: "";
+    background: url(/icons/pt.png) no-repeat;
+    width: 200px;
+    height: 55px;
+    display: block;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+span.new-news {
+    position: absolute;
+    right: 35px;
+    background: linear-gradient(to right, #669900, #9cdc01);
+    font-size: 18px;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 3px;
+    margin-top: -6px;
+    font-weight: 700;
+    box-shadow: 0px 10px 40px 0px rgba(134, 193, 0, 0.45);
+}
+.right-block {
+    background: #fff;
+    padding: 15px 15px;
+    border-bottom: 7px solid #eee;
+    border-radius: 3px;
+    box-shadow: 0px 10px 65px 0px #dae0e8;
+    margin-bottom: 46px;
+}
+span.time-data{
+    font-size: 20px;
+}
+
+.hcol{
+    color: #6371e4;
+}
+span.time-data{
+    border-radius: 200px;
+}
