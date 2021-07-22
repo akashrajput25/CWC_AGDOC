@@ -5,6 +5,7 @@ body {
 	background: #4a4e52 url('../pattern.png') repeat;
 	color: #bbb6b6;
 	font-weight:500;
+	margin-top: 100px;
 }
 .container{
 	font-family: 'Krona', cursive;

@@ -12,9 +12,9 @@
 .news-log{
     color: #ccd4e0;
 }
-@media (max-width:775px) {
+@media (min-width:775px) {
 	.news-link{
-        padding: 25px 10%;
+        padding: 25px 5%;
     }
 }
 
