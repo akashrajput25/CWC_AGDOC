@@ -26,6 +26,7 @@ b,strong,.strong {
 
 .main-nav {
 	padding:25px 45%;
+	padding-right: 0px;
 	transition:padding .4s, background-color .8s, box-shadow .35s;
 	-webkit-transition:padding .4s, background-color .8s, box-shadow .35s;
 }
